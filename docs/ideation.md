@@ -10,7 +10,7 @@ The goal of this system is to evaluate mentor effectiveness using multiple scala
 
 The final score is computed as:
 
-M(m) = w1*P + w2*R + w3*E + w4*F
+M(m) = w1·P + w2·R + w3·E + w4·F
 
 Subject to:
 w1 + w2 + w3 + w4 = 1
@@ -44,7 +44,7 @@ P = Total milestones completed / Total milestones assigned
 
 ### 3.2 Responsiveness Score (R)
 
-R(t) = exp(-k*t_avg)
+R(t) = exp(-k · t_avg)
 
 Where:
 
@@ -61,7 +61,7 @@ Where:
 
 ### 3.3 Engagement Score (E_raw)
 
-E_raw = 15*meetings + 5*reviews + 1*messages
+E_raw = 15·meetings + 5·reviews + 1·messages
 
 * Meetings are weighted highest (deep interaction)
 * Reviews indicate technical guidance so are given significant weightage
