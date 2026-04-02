@@ -61,7 +61,7 @@ def normalize_engagement(E, c=80):  #normalize to [0,1]
 
 def compute_mentee_feedback_score(feedbacks):
     if not feedbacks:
-        return 0
+        return 0.5
 
     feedbacks = filter_outliers(feedbacks)  #Filtering unfair feedback
 

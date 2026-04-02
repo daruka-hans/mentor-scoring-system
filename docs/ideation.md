@@ -90,7 +90,7 @@ Where:
 
 #### Method:
 
-* if no feedback data, returns 0
+* if no feedback data, returns 0.5, considering the fact that generally people don't take it seriously to give rating to an average thing/service so the feedback data of an average mentor may be empty 
 * feedback data is passed through filter_outliers function in utilities.py to nullify/remove biased or extreme feedback
 * Compute average
 * Normalize to [0,1] ( dividing average by 5 )
