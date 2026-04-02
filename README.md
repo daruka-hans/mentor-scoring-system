@@ -1,7 +1,7 @@
-#MENTOR SCORING SYSTEM – WnCC SoC
+# MENTOR SCORING SYSTEM – WnCC SoC
 
 
-##OVERVIEW:
+## OVERVIEW:
 
 This project implements a Mentor Scoring System to evaluate mentor effectiveness in WnCC’s Seasons of Code (SoC).
 
@@ -15,12 +15,12 @@ The system computes a final score for each mentor using multiple indicators:
 Mentors are then ranked based on their scores.
 
 
-##HOW TO RUN:
+## HOW TO RUN:
 
 1. Clone the repository
     
     ```
-    git clone https://github.com/daruka-hans/mentor-scoring-system.git
+    git clone git@github.com:daruka-hans/mentor-scoring-system.git
     cd mentor-scoring-system
     ```
 
@@ -30,7 +30,7 @@ Mentors are then ranked based on their scores.
     python src/main.py
     ```
 
-##PROJECT STRUCTURE:
+## PROJECT STRUCTURE:
 
 mentor-scoring-system/
 | 
@@ -56,7 +56,7 @@ mentor-scoring-system/
 |── .gitignore
 
 
-##OUTPUT:
+## OUTPUT:
 
 The program generates-
     output/mentor_scores.csv
@@ -65,6 +65,6 @@ Format-
     MentorID,Name,Score,Rank
 
 
-##CONCLUSION:
+## CONCLUSION:
 
 This project provides a fair and clean method to assess mentors using both scalable metrics and student feedback.
