@@ -7,10 +7,10 @@ This project implements a Mentor Scoring System to evaluate mentor effectiveness
 
 The system computes a final score for each mentor using multiple indicators:
 
--> Student Progress
--> Responsiveness
--> Engagement
--> Mentee Feedback
+* Student Progress
+* Responsiveness
+* Engagement
+* Mentee Feedback
 
 Mentors are then ranked based on their scores.
 
@@ -31,6 +31,8 @@ Mentors are then ranked based on their scores.
     ```
 
 ## PROJECT STRUCTURE:
+
+``` id="tree123"
 
 mentor-scoring-system/
 | 
@@ -54,7 +56,7 @@ mentor-scoring-system/
 |── README.md 
 |── requirements.txt 
 |── .gitignore
-
+```
 
 ## OUTPUT:
 
